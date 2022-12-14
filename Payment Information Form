@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Information Form</title>
+</head>
+<body>
+  <form>
+    
+    <label for="title">Title</label>
+    <input type="radio" name="title" id="Mr" value="Mr"> <label for="Mr">Mr</label>
+    <input type="radio" name="title" id="Ms" value="Ms"><label for="Ms">Ms</label>
+    <input type="radio" name="title" id="Mrs" value="Mrs"><label for="Mrs">Mrs</label>
+    
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required>
+
+    <label for="card_type">Select Card Type</label>
+    <select name="card_type" id="card_type" required>
+      <option value="visa">Visa</option>
+      <option value="mastercard">Mastercard</option>
+      <option value="rupay">Rupay</option>
+    </select>
+
+    <label for="card_number">Card Number</label>
+    <input type="tel" id="card_number" name="card_number" required>
+
+    <label for="expiry">Expiry Date</label>
+    <input type="date" name="expiry" id="expiry" required>
+
+    <button type="submit">submit</button>
+
+
+
+    </form>
+</body>
+</html>
